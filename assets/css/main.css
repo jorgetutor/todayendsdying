@@ -1,0 +1,133 @@
+/* line 5, ../compass/sass/main.scss */
+body {
+  color: #999;
+  background: url("../images/background.jpg") center top no-repeat black;
+  padding: 500px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+/* line 13, ../compass/sass/main.scss */
+.shadow {
+  -moz-box-shadow: #000 5px 5px 5px;
+  -webkit-box-shadow: #000 5px 5px 5px;
+  box-shadow: #000 5px 5px 5px;
+}
+
+/* line 17, ../compass/sass/main.scss */
+h1 {
+  font-family: 'Cinzel', sans-serif;
+  text-shadow: 2px 0 #000;
+  font-size: 4em;
+  color: #776F2E;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+/* line 26, ../compass/sass/main.scss */
+h2 {
+  font-family: 'Cinzel', sans-serif;
+  text-shadow: 2px 0 #000;
+  font-size: 3em;
+  color: #776F2E;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+/* line 35, ../compass/sass/main.scss */
+h3 {
+  font-family: 'Cinzel', sans-serif;
+  text-shadow: 2px 0 #000;
+  font-size: 2em;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  color: white;
+}
+
+/* line 44, ../compass/sass/main.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+/* line 48, ../compass/sass/main.scss */
+a:hover {
+  color: white;
+}
+/* line 51, ../compass/sass/main.scss */
+a:visited {
+  color: white;
+}
+/* line 54, ../compass/sass/main.scss */
+a.btn {
+  background: #776F2E;
+  padding: 1em 2em;
+  margin: 2em;
+  -moz-box-shadow: #000 5px 5px 5px;
+  -webkit-box-shadow: #000 5px 5px 5px;
+  box-shadow: #000 5px 5px 5px;
+  border-bottom: 5px solid #524d20;
+}
+
+/* line 63, ../compass/sass/main.scss */
+.download {
+  padding: 2em;
+}
+
+/* line 67, ../compass/sass/main.scss */
+.element-hide {
+  display: none;
+}
+
+/* line 71, ../compass/sass/main.scss */
+.albums {
+  text-align: center;
+}
+/* line 73, ../compass/sass/main.scss */
+.albums .album {
+  max-width: 500px;
+  margin: 0 auto 3em;
+  border-bottom: 1px solid #333;
+}
+
+/* line 82, ../compass/sass/main.scss */
+.cover img {
+  border-radius: 2px;
+  border: 5px solid #111;
+}
+
+/* line 88, ../compass/sass/main.scss */
+section {
+  margin-bottom: 3em;
+}
+
+/* line 93, ../compass/sass/main.scss */
+ol.playlist li {
+  text-align: left;
+}
+
+/* line 98, ../compass/sass/main.scss */
+ul.unformated {
+  margin: 0;
+  padding: 0;
+}
+/* line 101, ../compass/sass/main.scss */
+ul.unformated li {
+  list-style: none;
+}
+
+/* line 108, ../compass/sass/main.scss */
+.audio .audiojs {
+  margin: 0 auto;
+}
+/* line 113, ../compass/sass/main.scss */
+.audio ol li {
+  text-align: left;
+}
+/* line 115, ../compass/sass/main.scss */
+.audio ol li.playing {
+  color: #776F2E;
+}
+/* line 117, ../compass/sass/main.scss */
+.audio ol li.playing a {
+  color: #776F2E;
+}
