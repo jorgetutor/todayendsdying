@@ -33,7 +33,7 @@
 
   <header class="sticky top-0 z-50 border-b border-white/5 bg-ink/80 backdrop-blur-md">
     <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6" aria-label="Main">
-      <a href="#top" class="font-display text-lg font-bold tracking-wide text-gold-400 transition-colors hover:text-gold-300">Today Ends Dying</a>
+      <a href="#top" class="font-display text-lg font-bold tracking-wide whitespace-nowrap max-[360px]:text-base text-gold-400 transition-colors hover:text-gold-300">Today Ends Dying</a>
       <div class="flex items-center gap-6">
         <a href="#about" class="hidden text-xs font-bold tracking-[0.2em] text-zinc-400 uppercase transition-colors hover:text-white sm:block">About</a>
         <a href="#music" class="hidden text-xs font-bold tracking-[0.2em] text-zinc-400 uppercase transition-colors hover:text-white sm:block">Music</a>
@@ -55,13 +55,13 @@
       <div class="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6 sm:pb-14">
         <h1 class="sr-only">Today Ends Dying</h1>
         <div class="flex flex-col items-center gap-5 text-center">
-          <p class="text-xs font-bold tracking-[0.35em] text-zinc-400 uppercase">Metal &middot; Est. 2004</p>
+          <p class="text-xs font-bold tracking-[0.35em] text-zinc-400 uppercase [text-shadow:0_1px_6px_#000,0_0_2px_#000]">Metal &middot; Est. 2004</p>
           <div class="flex flex-wrap justify-center gap-3">
-            <a href="https://open.spotify.com/artist/1SKLgfWs6AwzAyj8OVglIJ" target="_blank" rel="noopener" class="inline-flex items-center gap-2.5 rounded-full bg-spotify px-6 py-3 font-bold text-black shadow-lg shadow-black/50 transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spotify">
+            <a href="https://open.spotify.com/artist/1SKLgfWs6AwzAyj8OVglIJ" target="_blank" rel="noopener" class="inline-flex items-center gap-2.5 rounded-full bg-spotify px-6 py-3 font-bold max-[400px]:px-4 text-black shadow-lg shadow-black/50 transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spotify">
               <svg class="size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
               Listen on Spotify
             </a>
-            <a href="#music" class="inline-flex items-center gap-2 rounded-full border border-gold-500/70 bg-ink/60 px-6 py-3 font-bold text-gold-300 backdrop-blur-sm transition hover:border-gold-400 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400">
+            <a href="#music" class="inline-flex items-center gap-2 rounded-full border border-gold-500/70 bg-ink/60 px-6 py-3 font-bold max-[400px]:px-4 text-gold-300 backdrop-blur-sm transition hover:border-gold-400 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400">
               Discography
             </a>
           </div>
@@ -118,7 +118,7 @@
 
       <div class="mt-12 space-y-10">
 
-        <article class="grid gap-8 rounded-2xl border border-white/10 bg-abyss/70 p-5 shadow-2xl shadow-black/60 sm:p-8 md:grid-cols-[16rem_1fr] lg:grid-cols-[20rem_1fr] lg:gap-12">
+        <article class="grid gap-8 rounded-2xl border border-white/10 bg-abyss/70 p-4 shadow-2xl shadow-black/60 sm:p-8 md:grid-cols-[16rem_1fr] lg:grid-cols-[20rem_1fr] lg:gap-12">
           <img src="images/albums/ltpf.jpg" width="500" height="500" loading="lazy" alt="Let the Pieces Fit album cover" class="mx-auto aspect-square w-full max-w-xs rounded-lg shadow-xl shadow-black ring-1 ring-white/10 md:max-w-none">
 
           <div>
@@ -138,30 +138,30 @@
             </div>
 
             <div data-player class="mt-8">
-              <div class="rounded-xl border border-white/10 bg-ink/70 p-4">
-                <p class="text-[0.65rem] font-bold tracking-[0.3em] text-zinc-500 uppercase">Now playing</p>
+              <div class="rounded-xl border border-white/10 bg-ink/70 p-3 sm:p-4">
+                <p class="text-[0.65rem] font-bold tracking-[0.3em] text-zinc-400 uppercase">Now playing</p>
                 <p data-now-playing class="mt-1 font-display text-lg font-bold text-gold-300" aria-live="polite">Crystal Box</p>
                 <audio controls preload="none" class="mt-3 w-full"></audio>
               </div>
 
               <ol class="mt-4 grid gap-x-4 gap-y-0.5 sm:grid-cols-2">
-                <li><button type="button" data-src="https://www.dropbox.com/s/eg5gshy1ckw957r/01-TodayEndsDying-CrystalBox.mp3?dl=1" data-title="Crystal Box" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">01</span>Crystal Box</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/25j6ocux6kjhe1g/02-TodayEndsDying-AnotherChance.mp3?dl=1" data-title="Another Chance" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">02</span>Another Chance</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/jxleps3wmpswc6b/03-TodayEndsDying-Unknown.mp3?dl=1" data-title="Unknown" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">03</span>Unknown</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/5syrf2gofhhc6zu/04-TodayEndsDying-Maze.mp3?dl=1" data-title="Maze" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">04</span>Maze</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/6m0uxmrd6gy7or8/05-TodayEndsDying-MentalExperiment.mp3?dl=1" data-title="Mental Experiment" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">05</span>Mental Experiment</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/1uxkz7m41z03473/06-TodayEndsDying-OnceAgain.mp3?dl=1" data-title="Once Again" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">06</span>Once Again</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/qyj9zrpwqznmh55/07-TodayEndsDying-Mess.mp3?dl=1" data-title="Mess" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">07</span>Mess</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/51whovx78nauejx/08-TodayEndsDying-30secs.mp3?dl=1" data-title="30 Secs" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">08</span>30 Secs</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/981ofyruvdq7mmv/09-TodayEndsDying-FindtheMeaning.mp3?dl=1" data-title="Find the Meaning" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">09</span>Find the Meaning</button></li>
-                <li><button type="button" data-src="https://www.dropbox.com/s/abhrvcusz033h2w/10-TodayEndsDying-Over.mp3?dl=1" data-title="Over" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500 group-aria-[current=true]:text-gold-400" aria-hidden="true">10</span>Over</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/eg5gshy1ckw957r/01-TodayEndsDying-CrystalBox.mp3?dl=1" data-title="Crystal Box" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">01</span>Crystal Box</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/25j6ocux6kjhe1g/02-TodayEndsDying-AnotherChance.mp3?dl=1" data-title="Another Chance" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">02</span>Another Chance</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/jxleps3wmpswc6b/03-TodayEndsDying-Unknown.mp3?dl=1" data-title="Unknown" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">03</span>Unknown</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/5syrf2gofhhc6zu/04-TodayEndsDying-Maze.mp3?dl=1" data-title="Maze" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">04</span>Maze</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/6m0uxmrd6gy7or8/05-TodayEndsDying-MentalExperiment.mp3?dl=1" data-title="Mental Experiment" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">05</span>Mental Experiment</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/1uxkz7m41z03473/06-TodayEndsDying-OnceAgain.mp3?dl=1" data-title="Once Again" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">06</span>Once Again</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/qyj9zrpwqznmh55/07-TodayEndsDying-Mess.mp3?dl=1" data-title="Mess" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">07</span>Mess</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/51whovx78nauejx/08-TodayEndsDying-30secs.mp3?dl=1" data-title="30 Secs" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">08</span>30 Secs</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/981ofyruvdq7mmv/09-TodayEndsDying-FindtheMeaning.mp3?dl=1" data-title="Find the Meaning" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">09</span>Find the Meaning</button></li>
+                <li><button type="button" data-src="https://www.dropbox.com/s/abhrvcusz033h2w/10-TodayEndsDying-Over.mp3?dl=1" data-title="Over" class="group flex w-full cursor-pointer items-baseline gap-3 rounded-md px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-400 aria-[current=true]:bg-gold-600/20 aria-[current=true]:text-gold-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400 group-aria-[current=true]:text-gold-400" aria-hidden="true">10</span>Over</button></li>
               </ol>
-              <p class="mt-3 hidden text-xs text-zinc-500 sm:block">Tip: use the &larr; &rarr; keys to skip between tracks.</p>
+              <p class="mt-3 hidden text-xs text-zinc-400 sm:block">Tip: use the &larr; &rarr; keys to skip between tracks.</p>
             </div>
           </div>
         </article>
 
-        <article class="grid gap-8 rounded-2xl border border-white/10 bg-abyss/70 p-5 shadow-2xl shadow-black/60 sm:p-8 md:grid-cols-[16rem_1fr] lg:grid-cols-[20rem_1fr] lg:gap-12">
+        <article class="grid gap-8 rounded-2xl border border-white/10 bg-abyss/70 p-4 shadow-2xl shadow-black/60 sm:p-8 md:grid-cols-[16rem_1fr] lg:grid-cols-[20rem_1fr] lg:gap-12">
           <img src="images/albums/sistby.jpg" width="200" height="200" loading="lazy" alt="Sometimes It Seems to Be Yours demo cover" class="mx-auto aspect-square w-full max-w-xs rounded-lg shadow-xl shadow-black ring-1 ring-white/10 md:max-w-none">
 
           <div>
@@ -170,11 +170,11 @@
             <p class="mt-2 text-zinc-400">First demo, recorded in 2005 at Gruposmadrid.com studios.</p>
 
             <ol class="mt-6 grid gap-x-4 gap-y-0.5 sm:grid-cols-2">
-              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500" aria-hidden="true">01</span>Mess</li>
-              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500" aria-hidden="true">02</span>Identify With Me</li>
-              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500" aria-hidden="true">03</span>Once Again</li>
-              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500" aria-hidden="true">04</span>Fade Away</li>
-              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-500" aria-hidden="true">05</span>Maze</li>
+              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400" aria-hidden="true">01</span>Mess</li>
+              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400" aria-hidden="true">02</span>Identify With Me</li>
+              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400" aria-hidden="true">03</span>Once Again</li>
+              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400" aria-hidden="true">04</span>Fade Away</li>
+              <li class="flex items-baseline gap-3 px-3 py-2 text-zinc-300"><span class="w-5 shrink-0 text-xs tabular-nums text-zinc-400" aria-hidden="true">05</span>Maze</li>
             </ol>
           </div>
         </article>
@@ -188,14 +188,14 @@
     <div class="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-12 text-center sm:flex-row sm:justify-between sm:px-6 sm:text-left">
       <div>
         <p class="font-display text-xl font-bold text-gold-400">Today Ends Dying</p>
-        <p class="mt-1 text-sm text-zinc-500">Metal &middot; Est. 2004</p>
+        <p class="mt-1 text-sm text-zinc-400">Metal &middot; Est. 2004</p>
       </div>
       <div class="flex items-center gap-6">
-        <a href="https://open.spotify.com/artist/1SKLgfWs6AwzAyj8OVglIJ" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-bold text-zinc-300 transition-colors hover:text-spotify">
+        <a href="https://open.spotify.com/artist/1SKLgfWs6AwzAyj8OVglIJ" target="_blank" rel="noopener" class="inline-flex items-center gap-2 py-2 text-sm font-bold text-zinc-300 transition-colors hover:text-spotify">
           <svg class="size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
           Listen on Spotify
         </a>
-        <a href="#top" class="text-sm text-zinc-500 transition-colors hover:text-white">Back to top &uarr;</a>
+        <a href="#top" class="py-2 text-sm text-zinc-400 transition-colors hover:text-white">Back to top &uarr;</a>
       </div>
     </div>
   </footer>
