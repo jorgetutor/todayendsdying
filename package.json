@@ -1,0 +1,13 @@
+{
+  "name": "todayendsdying",
+  "private": true,
+  "description": "Today Ends Dying website",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/styles.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

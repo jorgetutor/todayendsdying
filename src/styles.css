@@ -1,0 +1,44 @@
+/*
+ * Tailwind source. Build the served stylesheet with:
+ *   npm run build   -> assets/css/styles.css (commit the output, GitHub Pages serves it as-is)
+ *   npm run watch   -> rebuild on change while editing
+ */
+@import "tailwindcss" source(none);
+
+@source "../index.html";
+@source "../assets/js/player.js";
+
+@theme {
+  --font-display: "Cinzel", ui-serif, Georgia, serif;
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+
+  /* Sampled from the "Let the pieces fit" artwork */
+  --color-ink: #050808;
+  --color-abyss: #0b1718;
+  --color-teal-950: #0d2122;
+  --color-teal-900: #14312f;
+  --color-teal-800: #1f4248;
+
+  /* Logo gold / original brand olive */
+  --color-gold-300: #ddd38f;
+  --color-gold-400: #c9bd6a;
+  --color-gold-500: #8b874a;
+  --color-gold-600: #776f2e;
+  --color-gold-700: #524d20;
+
+  --color-spotify: #1ed760;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
